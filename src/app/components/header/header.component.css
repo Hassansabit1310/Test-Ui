@@ -1,0 +1,30 @@
+.header{
+    /* position: fixed;
+    top: 0; */
+    height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+background-color: #FFFFFF;
+
+}
+
+.header-image{
+    
+    padding: 2rem;
+    margin-left: 3rem;
+
+
+}
+
+.header-util{
+/* position: absolute;
+
+height: 35px;
+left: 800px;
+top: 35px; */
+width: 600px;
+
+}
+

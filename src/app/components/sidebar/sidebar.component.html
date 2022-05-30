@@ -1,0 +1,81 @@
+<div class="sidebar">
+  <mat-form-field style="width: 90%" appearance="legacy">
+    <mat-label style="color: black; font-size: 14px">Supplier</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let supplier of suppliers" [value]="supplier.value">
+        <input type="checkbox" />
+        <label> {{ supplier.viewValue }}</label>
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div class="checkbox">
+    <mat-checkbox *ngFor="let supplier of suppliers" [value]="supplier.value">{{
+      supplier.viewValue
+    }}</mat-checkbox>
+  </div>
+  <button mat-raised-button color="primary" class="button">Search</button>
+
+  <mat-form-field style="width: 90%">
+    <mat-label style="color: black; font-size: 14px">Category</mat-label>
+    <mat-select>
+      <mat-option
+        *ngFor="let catergory of catagories"
+        [value]="catergory.value"
+      >
+        <ul>
+          <li>{{ catergory.viewValue }}</li>
+        </ul>
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <ul *ngFor="let catergory of catagories">
+    <li>{{ catergory.viewValue }}</li>
+  </ul>
+
+  <mat-form-field style="width: 90%">
+    <mat-label style="color: black; font-size: 14px">Price Range</mat-label>
+    <mat-select>
+      <mat-option
+        *ngFor="let catergory of catagories"
+        [value]="catergory.value"
+      >
+        <ul>
+          <li>{{ catergory.viewValue }}</li>
+        </ul>
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <form>
+    <!-- <div class="btn-group">
+
+    <mat-form-field class="input1" appearance="outline">
+      <mat-label>Min</mat-label>
+      <input matInput placeholder="$10" value="">
+    </mat-form-field>
+    <mat-form-field class="input2" appearance="outline">
+      <mat-label>Max</mat-label>
+      <input matInput placeholder="$100" >
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="button2">Go</button> 
+   </div> -->
+
+    <div class="btn-group">
+      <div class="input">
+        <label for="min">Min</label>
+
+        <input id="min" type="text" />
+      </div>
+      <div class="input">
+        <label for="max">Max</label>
+
+        <input id="max" type="text" />
+      </div>
+      <div>
+        <button type="button" class="btn">Go</button>
+      </div>
+    </div>
+  </form>
+</div>

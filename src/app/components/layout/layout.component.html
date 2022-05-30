@@ -1,0 +1,63 @@
+<div class="layout">
+  
+  <div class="sidebar-layout">
+    <app-sidebar></app-sidebar>
+  </div>
+
+<div>
+  
+  <div class="below-nav">
+    <p style="font-size:18px">Search Results(100)</p>
+    <select class="form-select form-select-lg mb-3 w-25" aria-label=".form-select-lg example">
+      <option selected>Relevance</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    </div>
+ 
+    <hr class="divider">
+  
+  <div class="box">
+    <app-cards *ngFor="let item of [1,2,3,4,5]"></app-cards>
+  </div>
+
+   
+</div>
+
+</div>
+ <!-- <div class="container-fluid">
+  <div class="row">
+    
+    <div class="col-2">
+      <div class="sidebar-content"><app-sidebar></app-sidebar></div>
+  </div>
+
+  <div class="col-10">
+    <div class="main-content">
+      
+<div class="below-nav">
+<p style="font-size:1.2rem">Search Results(100)</p>
+<mat-form-field  appearance="outline">
+<mat-label>Relevance</mat-label>
+<mat-select>
+<mat-option *ngFor="let food of foods" [value]="food.value">
+  {{food.viewValue}}
+</mat-option>
+</mat-select>
+</mat-form-field>
+
+</div>
+<hr class="divider">
+
+<div class="container">
+
+<app-cards   *ngFor="let item of [1,2,3,4,5,6,7,8,9,10,11,12,13,14]"></app-cards>
+
+
+</div>
+    </div>
+ </div>
+     
+  </div>
+</div> -->

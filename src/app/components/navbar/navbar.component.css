@@ -1,0 +1,55 @@
+.nav-link{
+  display: flex;
+  height: 100%;
+  width: 92%;
+ 
+    flex-direction: column;
+
+  justify-content: start;
+  font-family: 'Poppins';
+  font-style: 400;
+  font-size: 15px;
+  margin-top: -10px;
+  
+}
+ul {
+display: flex;
+margin: -4px;
+
+}
+ul li a {
+text-decoration: none;
+outline: none;
+padding: 0.4rem;
+color: #FFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 0.4rem;
+}
+
+ul li:hover, ul li:active {
+background-color: #0C427B;
+transition: background 100ms linear;
+}
+
+ul>li{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+margin: 0.4rem;
+
+}
+.navbar{
+  /* top: 100px;
+ position:fixed;
+ overflow: hidden; */
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: start;
+height: 120px;
+background: #005CBF;
+}

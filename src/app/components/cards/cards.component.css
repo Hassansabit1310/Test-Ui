@@ -1,0 +1,192 @@
+.example-card {
+  margin-bottom: 10px;
+  border-radius: 1px;
+  padding: 1.5rem;
+}
+
+.card-content-wrapper {
+  display: flex;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+.img {
+  /* position: absolute;
+        top: 8%;
+        left: 5%; */
+  /* height: 100px;
+        width: 80px;
+        border-radius: 5px;
+        margin-top:1rem; */
+}
+
+.divider {
+  /* position: absolute;
+     
+      top: 12%; */
+  border-top: 0px solid black;
+  /* width:93%; */
+  /* margin-left: 4.5%; */
+}
+
+.content {
+  min-width: 20%;
+  color: #7b869a;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.mat-card-header {
+  margin-left: 125px;
+}
+
+.mat-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 1rem;
+}
+.mat-action2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #307ef3;
+  padding: 1rem 0.3rem;
+}
+
+input {
+  text-align: center;
+  border: 1px solid #6c757d;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield !important;
+  -moz-appearance: textfield !important;
+  appearance: textfield !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.wrapper {
+  border: 1px #dcd3d3 solid;
+  width: 4rem;
+  height: 1.5rem;
+  /* padding: 0.2rem; */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  border-radius: 1px;
+  /* margin-top: -2.8%; */
+}
+
+.plusminus {
+  width: 25%;
+  background: rgb(224, 224, 224);
+  border: none;
+  font-size: 15px;
+  color: #858585;
+}
+
+.num {
+  width: 50%;
+  border: none;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.rate {
+  display: flex;
+  justify-content: space-evenly;
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 15px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.mat-card-image {
+  width: unset;
+}
+.mat-card-image:first-child {
+  margin-top: 0;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  /* height: 100%; */
+  flex-direction: column;
+}
+.card-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-1 {
+  width: 50%;
+  display: flex;
+}
+.card-header-1 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-header-0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-subtitle {
+}

@@ -1,0 +1,115 @@
+<!-- <mat-card class="example-card">
+    <div class="card-wrapper">
+         <div style="display:flex;flex-direction:row;">
+         <div class="title">
+            <div >     
+              <mat-card-title class="img"><img mat-card-image  src="assets/images/Rectangle 57.png" height="100px" width="100px" alt="Photo of a Shiba Inu"></mat-card-title>
+            </div>
+            <div style="margin-left: 1rem;">
+              <div >
+                <mat-card-content class="card-header">
+                  <div>
+                    <mat-card-title>MacBook M1 Pro</mat-card-title>
+                    <mat-card-subtitle>From Apple(USA)</mat-card-subtitle>
+                  </div>
+                  <mat-card-actions class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                  </mat-card-actions>
+                </mat-card-content>
+              </div>
+              <div>
+                <mat-card-subtitle>13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of color.
+                  macOS is the most advanced desktop operating system in the world. macOS Monterey introduces powerful new features to help you connect.
+                </mat-card-subtitle>
+                  
+              </div>
+            </div>
+           </div>
+           </div>
+           <div>
+             <hr class="divider">
+             <mat-card-actions class="mat-action2">
+               <p>Last purchase price : $100.00 </p>
+               <p>Avarage purchase price: $80.00</p>
+               <div class="wrapper">
+                 <button class="plusminus" (click)="handleMinus()">-</button>
+                 <input type="number" class="num" value="0" [(ngModel)]="value" />
+                 <button class="plusminus" (click)="handlePlus()">+</button>
+               </div>
+             </mat-card-actions>
+             <hr class="divider">
+             <mat-card-actions class="mat-action">
+                <div>Available Stock  : 10</div>
+                <button  mat-raised-button style="background-color:#005CBF;color:white;padding: 0.3rem 1.5rem;"><mat-icon>shopping_cart</mat-icon>Add to cart</button>
+             </mat-card-actions>
+          </div>
+      </div>
+   </mat-card> -->
+   <mat-card class="example-card" >
+       <div class="card-content-wrapper">
+        <img style="padding-right:10px;margin-top:15px;" src="assets/images/Rectangle 57.png" height="100px" width="100px" alt="Photo of a Shiba Inu">
+  
+        <div class="container-fluid">
+            <div class="row py-3 ">
+                <div class="col-8">
+                    <mat-card-title style="font-size: 16px;">MacBook M1 Pro</mat-card-title>
+                </div>
+                <div class="col-4">
+                    <mat-card-actions class="rate">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                      </mat-card-actions>
+    
+                </div>
+                <mat-card-title style="font-size: 12px;">From Apple(USA)</mat-card-title>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    
+                    <mat-card-subtitle style="font-size: 12px;">13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of color.
+                        macOS is the most advanced desktop operating system in the world. macOS Monterey introduces powerful new features to help you connect.
+                      </mat-card-subtitle>
+                </div>
+            </div>
+    
+        
+    
+        </div>
+    
+       </div>
+    
+        <div>
+        <hr class="divider">
+        <mat-card-actions class="mat-action2">
+          <p>Last purchase price : $100.00 </p>
+          <p>Avarage purchase price: $80.00</p>
+          <div class="wrapper">
+            <button class="plusminus" (click)="handleMinus()">-</button>
+            <input type="number" class="num" value="0" [(ngModel)]="value" />
+            <button class="plusminus" (click)="handlePlus()">+</button>
+          </div>
+        </mat-card-actions>
+        <hr class="divider">
+        <mat-card-actions class="mat-action">
+           <div>Available Stock  : 10</div>
+           <button  mat-raised-button style="background-color:#005CBF;color:white;padding: 0.3rem 1.5rem;"><mat-icon>shopping_cart</mat-icon>Add to cart</button>
+        </mat-card-actions>
+     </div>
+   </mat-card>

@@ -1,0 +1,72 @@
+<div class="header-content">
+
+  
+<div class="profile">
+  <button mat-icon-button ><img src="assets/images/Ellipse 38.png" alt=""></button>
+  <p class="username">Ilias Hossain (Purchase Manager)</p>
+
+</div>
+
+<div class="btn-group">
+
+
+<span class="line"></span>
+
+<button  mat-icon-button class="header-notification"> <mat-icon matBadge="1" matBadgeColor="warn"  fontSet="material-icons-outlined">
+  notifications
+</mat-icon></button>
+
+<span class="line"></span>
+
+
+
+<button mat-icon-button class="header-cart" [matMenuTriggerFor]="menu" >
+<button mat-icon-button ><mat-icon matBadge="2" matBadgeColor="warn"  fontSet="material-icons-outlined">shopping_cart</mat-icon></button>
+
+</button>
+<mat-menu class="customize" #menu="matMenu">
+<div class="menu-group">
+  <button style="width:14% ;" mat-menu-item>
+    <mat-icon>shopping_cart</mat-icon>
+  </button>
+    
+    <span mat-menu-item>Macbook Pro</span>
+    <span mat-menu-item style="color: green ;">1 X $1000 USD</span>
+</div>
+
+<div class="menu-group">
+  
+  <button style="width:14% ;" mat-menu-item>
+    <mat-icon>shopping_cart</mat-icon>
+  </button>
+    
+    <span mat-menu-item>Macbook Pro</span>
+    <span mat-menu-item style="color: green ;">1 X $1000 USD</span>
+</div>
+<div class="btn-group">
+  <button  mat-raised-button disabled style="border-radius: 1px;">Review Cart</button>
+<button style="background-color:#307EF3;border-radius: 1px;" mat-raised-button color="primary">Proceed to Checkout</button>
+</div>
+
+
+</mat-menu>
+
+<span class="line"></span>
+
+
+<button mat-icon-button class="header-activity"> <img src="assets/images/Vector.png" alt=""></button>
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<!-- <span class="line2"></span>
+<span class="line3"></span> -->
+
+
